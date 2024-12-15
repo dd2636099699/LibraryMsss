@@ -113,6 +113,12 @@
     <Compile Include="user1.Designer.cs">
       <DependentUpon>user1.cs</DependentUpon>
     </Compile>
+    <Compile Include="userSearchBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userSearchBook.Designer.cs">
+      <DependentUpon>userSearchBook.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="addshow.resx">
       <DependentUpon>addshow.cs</DependentUpon>
     </EmbeddedResource>
