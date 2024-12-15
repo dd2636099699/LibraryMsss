@@ -16,5 +16,23 @@ namespace LibraryMs
         {
             InitializeComponent();
         }
+
+        private void 图书查询和借阅ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            userSearchBook u = new userSearchBook();
+            u.ShowDialog();
+           
+        }
+
+        private void 当前借出图书和归还ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            userlend u = new userlend();
+            u.ShowDialog();
+        }
+
+        private void 退出ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

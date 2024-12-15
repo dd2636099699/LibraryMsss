@@ -64,8 +64,9 @@ namespace LibraryMs
                     data1.uid = dc["userid"].ToString();
                     data1.uname = dc["name"].ToString();
                     user1 u = new user1();
-                    u.ShowDialog();
                     this.Hide();
+                    u.ShowDialog();
+                    
                 }
                 else
                 {

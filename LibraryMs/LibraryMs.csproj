@@ -113,6 +113,12 @@
     <Compile Include="user1.Designer.cs">
       <DependentUpon>user1.cs</DependentUpon>
     </Compile>
+    <Compile Include="userlend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userlend.Designer.cs">
+      <DependentUpon>userlend.cs</DependentUpon>
+    </Compile>
     <Compile Include="userSearchBook.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,6 +151,12 @@
     </Compile>
     <EmbeddedResource Include="user1.resx">
       <DependentUpon>user1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userlend.resx">
+      <DependentUpon>userlend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userSearchBook.resx">
+      <DependentUpon>userSearchBook.cs</DependentUpon>
     </EmbeddedResource>
     <EntityDeploy Include="data.edmx">
       <Generator>EntityModelCodeGenerator</Generator>

@@ -65,7 +65,7 @@
             // 帮助ToolStripMenuItem
             // 
             this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
-            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
             this.帮助ToolStripMenuItem.Text = "帮助";
             // 
             // 退出ToolStripMenuItem
@@ -73,11 +73,12 @@
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
             this.退出ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.退出ToolStripMenuItem.Text = "退出";
+            this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
             // 
             // 联系管理员ToolStripMenuItem
             // 
             this.联系管理员ToolStripMenuItem.Name = "联系管理员ToolStripMenuItem";
-            this.联系管理员ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.联系管理员ToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
             this.联系管理员ToolStripMenuItem.Text = "联系管理员";
             // 
             // 图书查询和借阅ToolStripMenuItem
@@ -85,21 +86,24 @@
             this.图书查询和借阅ToolStripMenuItem.Name = "图书查询和借阅ToolStripMenuItem";
             this.图书查询和借阅ToolStripMenuItem.Size = new System.Drawing.Size(128, 24);
             this.图书查询和借阅ToolStripMenuItem.Text = "图书查询和借阅";
+            this.图书查询和借阅ToolStripMenuItem.Click += new System.EventHandler(this.图书查询和借阅ToolStripMenuItem_Click);
             // 
             // 当前借出图书和归还ToolStripMenuItem
             // 
             this.当前借出图书和归还ToolStripMenuItem.Name = "当前借出图书和归还ToolStripMenuItem";
             this.当前借出图书和归还ToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
             this.当前借出图书和归还ToolStripMenuItem.Text = "当前借出图书和归还";
+            this.当前借出图书和归还ToolStripMenuItem.Click += new System.EventHandler(this.当前借出图书和归还ToolStripMenuItem_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(185, 110);
+            this.label1.Font = new System.Drawing.Font("华文楷体", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(220, 198);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 15);
+            this.label1.Size = new System.Drawing.Size(322, 42);
             this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.label1.Text = "欢迎登录用户页面";
             // 
             // user1
             // 

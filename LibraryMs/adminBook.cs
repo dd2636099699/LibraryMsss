@@ -178,5 +178,41 @@ namespace LibraryMs
         {
             searchNameTable(textBox2.Text);
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            int count = dataGridView1.SelectedRows.Count;//获取选中行数
+            string sql = $"delete from book where book_id in (";
+            for (int i = 0; i < count; i++)
+            {
+                sql += $"{dataGridView1.SelectedRows[i].Cells[1].Value.ToString()},";
+            }
+            sql = sql.Remove(sql.Length - 1);//删除最后一个字节
+            sql += ")";
+            Dao dao = new Dao();
+            if (dao.Execute(sql) > 0)
+            {
+                MessageBox.Show("删除成功！");
+                table();
+            }
+            else {
+                MessageBox.Show("删除失败！");
+            }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
