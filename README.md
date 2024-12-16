@@ -1,4 +1,6 @@
-C#+winform第一次项目联系
+C#+winform第一次项目练习
+
+
 ![image](https://github.com/user-attachments/assets/034cf892-d9d2-4531-af77-eb3e15804d4f)
 ![image](https://github.com/user-attachments/assets/9a75055b-675c-4a5b-a0ec-f280974abd01)
 ![image](https://github.com/user-attachments/assets/22b26580-74d0-4fb8-afdf-3d45e90c47b7)
